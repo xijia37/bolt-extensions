@@ -3,9 +3,6 @@
     "description": "Bolt widgets is an awesome extension for Bolt that allows you to feature widgets on your existing website",
     "type": "bolt-extension",
     "keywords": ["bolt", "widgets", "awesome"],
-    "require": {
-        "bolt/bolt": ">=1.0,<3.0"
-    },
     "authors": [
         {
             "name": "Bolt",
