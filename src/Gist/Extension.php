@@ -1,6 +1,6 @@
 <?php
 
-namespace Xijia7\Bolt_extension\Gist;
+namespace Xijia37\Bolt_extensions\Gist;
 
 class Extension extends \Bolt\BaseExtension
 {
