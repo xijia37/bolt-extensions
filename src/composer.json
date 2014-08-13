@@ -1,15 +1,15 @@
 {
-    "name": "bolt/gist",
-    "description": "Bolt widgets is an awesome extension for Bolt that allows you to feature widgets on your existing website",
+    "name": "xijia37/bolt-extensions",
+    "description": "extension collections for bolt cms",
     "type": "bolt-extension",
-    "keywords": ["bolt", "widgets", "awesome"],
+    "keywords": ["bolt", "extensions", "awesome"],
     "require": {
         "bolt/bolt": ">=2.0,<3.0"
     },
     "authors": [
         {
-            "name": "Bolt",
-            "email": "info@bolt.cm",
+            "name": "Hugo Teoh",
+            "email": "xijia37@gmail.com",
             "homepage": "http://bolt.cm"
         }
     ],
@@ -18,7 +18,7 @@
             "init.php"
         ],
         "psr-4": {
-            "Gist\\": "src"
+            "Xijia37\\Bolt_extensions\\": "src"
         }
     }
 }

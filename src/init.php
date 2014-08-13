@@ -1,5 +1,3 @@
 <?php
 
-use Gist\Extension;
-
-$app['extensions']->register(new Extension($app));
+$app['extensions']->register(new \Xijia37\Bolt_extension\Gist\Extension($app));
