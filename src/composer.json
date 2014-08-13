@@ -1,0 +1,24 @@
+{
+    "name": "bolt/gist",
+    "description": "Bolt widgets is an awesome extension for Bolt that allows you to feature widgets on your existing website",
+    "type": "bolt-extension",
+    "keywords": ["bolt", "widgets", "awesome"],
+    "require": {
+        "bolt/bolt": ">=2.0,<3.0"
+    },
+    "authors": [
+        {
+            "name": "Bolt",
+            "email": "info@bolt.cm",
+            "homepage": "http://bolt.cm"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Gist\\": "src"
+        }
+    }
+}
